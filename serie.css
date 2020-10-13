@@ -1,0 +1,160 @@
+
+*{
+  padding:0;
+  margin:0;
+  font-family: "Times New Roman", serif;
+}
+body{
+  background-image: url("img/background2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+h1{
+  color:white ;
+  font-size: 60px;
+  height:76px;
+  width: 100%;
+  padding: 40px 0px;
+  background-color: black;
+  text-align: center;
+    margin-bottom: 30px;
+}
+
+h2{
+  font-size: 35px;
+  color: rgb(203, 203, 203);
+  margin-top: 80px;
+  border: white;
+}
+
+h4{
+  padding-top: 25px;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+p{
+  font-size: 15px;
+  padding: 20px 70px;
+  min-width: 400px;
+  max-height: 200px;
+  background-color: black;
+  background: rgb(0, 0, 0, 0.5);
+}
+
+#main{
+  text-align: center;
+}
+
+.about{
+  overflow:scroll;
+  max-height: 300px;
+  padding-bottom: 20px;
+}
+.img{
+  display: block;
+  border: thick solid black;
+  width: 90%;
+  margin:auto;
+  max-width: 700px;
+}
+
+.meny{
+  background-color:inherit;
+  overflow: hidden;
+  min-width: 900px;
+}
+.menu ul{
+  text-align: center;
+  list-style-type: none;
+}
+
+.meny li{
+  float: left;
+  display: inline;
+  position: relative;
+  padding: 18px;
+  margin: 30px 20px;
+  font-size: 17px;
+  border-style: none;
+  border-radius: 5%;
+  background-color:rgba(0, 0, 0, 0.79);
+  color: rgb(129, 90, 185);
+}
+
+.meny li a{
+  text-decoration:none;
+  color: rgb(180, 182, 209);
+}
+.meny li:hover{
+  background-color:inherit ;
+  color:white;
+}
+
+#current{
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.author{
+  border: 2px dotted rgb(130, 130, 130);
+  padding: 10px;
+  font-style: italic;
+  background-color: Black;
+}
+
+.dropdown{
+position:relative;
+display:inline-block;
+}
+
+.dropknapp{
+background-color: rgba(0, 0, 0, 0);
+color: white;
+padding: 20px 16px;
+margin: 50px;
+font-size: 24px;
+border: none;
+border-top: thin solid white;
+border-bottom: thin solid white;
+}
+
+.dropdown-content{
+  display:none;
+  position: absolute;
+  background-color: rgb(164, 153, 194, 0.7);
+  width: 100%;
+  overflow:auto;
+}
+.dropdown-content a {
+  color: Black;
+  padding: 12px;
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.dropdown:hover .dropdown-content{
+  display:block;
+}
+
+.end{
+  background-color: black;
+}
+
+.end ul{
+  text-align: center;
+}
+.end li{
+      padding: 50px;
+}
+
+.end li a{
+  display: inline-block;
+  color:  rgb(180, 182, 209);
+}
+.contactpage{
+  font-size: 15px;
+  font-weight: lighter;
+}
