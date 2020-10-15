@@ -4,6 +4,8 @@
   margin:0;
   font-family: "Times New Roman", serif;
 }
+
+/*Bakgrundsbild webbsida*/
 body{
   background-image: url("img/background2.jpg");
   background-repeat: no-repeat;
@@ -108,7 +110,7 @@ p{
 position:relative;
 display:inline-block;
 }
-
+/*Knappen*/
 .dropknapp{
 background-color: rgba(0, 0, 0, 0);
 color: white;
@@ -119,7 +121,7 @@ border: none;
 border-top: thin solid white;
 border-bottom: thin solid white;
 }
-
+/*innehåll*/
 .dropdown-content{
   display:none;
   position: absolute;
