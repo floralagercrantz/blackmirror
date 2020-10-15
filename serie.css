@@ -40,9 +40,10 @@ p{
   font-size: 15px;
   padding: 20px 70px;
   min-width: 400px;
-  max-height: 200px;
+  /*max-height: 200px;*/
   background-color: black;
   background: rgb(0, 0, 0, 0.5);
+
 }
 
 #main{
